@@ -1,0 +1,41 @@
+a:link { color:black; text-decoration:underline; }
+a:visited { color:black; text-decoration:underline; }
+a:focus { color:black; text-decoration:underline; }
+a:hover { color:black; text-decoration:underline; }
+a:active { color:black; text-decoration:underline; }
+ul#Navigation {
+  font-size: 0.91em;
+  float: left; width: 17.75em;
+  position: fixed;
+  margin: 0; padding: 0;
+  border: 1px dashed;
+}
+ul#Navigation li {
+  list-style: none;
+  margin: 0; padding: 0em;
+}
+ul#Copyright {
+position: fixed;
+bottom: 0px;
+border: 0px;
+min-width: 5em;
+padding: 0 1em;
+}
+div {
+  margin-left: 17.75em;
+  padding: 0 1em;
+  border: 1px dashed;
+  min-width: 16em; /* Mindestbreite (der Ueberschrift) verhindert Anzeigefehler in modernen Browsern */
+}
+div# h1 {
+  font-size: 1.5em;
+  margin: 0 0 1em;
+}
+div# h2 {
+  font-size: 1.2em;
+  margin: 0 0 1em;
+}
+div# p {
+  font-size:1em;
+  margin: 1em 0;
+}
